@@ -12,10 +12,10 @@ import Link from "next/link";
 
 export default function Home() {
 // const router = useRouter()
-// router.push("/dashboard"); apenas um jeito de vanegar de pagina com base em uma ação
+// router.push("/dashboard"); apenas um jeito de navegar de pagina com base em uma ação
 
 
-//temos tambem router.refresh(/dashboard), ele atualiza a pagina quando acessada ela limpa o cache
+//temos tambem router.refresh(/dashboard), ele atualiza a pagina quando acessada ele limpa o cache
   return (
     <>
       <h1>Home</h1>

@@ -2,10 +2,10 @@
 
 export async function Repos() {
 
-await new Promise((resolve) => setTimeout(resolve,2000)) //isso faz com que a requisiçãop demore 2 seg
+await new Promise((resolve) => setTimeout(resolve,2000)) //isso faz com que a requisição demore 2 seg
 
 // const userCookies = cookies()
-// const userHeaders = headers() e possivel pegar aldo cookie usando o .get na frente do userCookie
+// const userHeaders = headers() e possivel pegar algum cookie usando o .get na frente do userCookie
 
 
     const response =  await fetch('https://api.github.com/users/RianYuri/repos',{
