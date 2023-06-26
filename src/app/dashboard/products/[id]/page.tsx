@@ -5,6 +5,8 @@ interface ProductsProps {
     }
 }
 
+
+
 const Product  = ({params}:ProductsProps) => {
     return(
         <div>
